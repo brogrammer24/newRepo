@@ -19,73 +19,53 @@
         .inner{
             display: block;
             justify-content: center;
-            /* background-color: aquamarine; */
+            
+           
         }
     </style>
 </head>
 <body>
-<!-- <div  class="container"> -->
+    <h3 style="text-align: center;">Student Information</h3>
     <div class="inner">
+      
      <form id="info" onsubmit="represent()">
         <div class="form-group">
-          <label for="exampleInputEmail1">Name of Student</label>
-          <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Name">
+          <label >Name of Student</label>
+          <input type="text" class="form-control" id="ns" aria-describedby="emailHelp" placeholder="Enter Name">
           
         </div><br>
         <div class="form-group">
           <label >Roll Number</label>
-          <input type="text" class="form-control" id="roll" placeholder="Enter Roll No">
+          <input type="text" class="form-control" id="rn" placeholder="Enter Roll No">
         </div><br>
-        <!-- <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div> -->
+       
         <div class="form-group">
             <label>Subject 1</label>
-            <input type="text" name="" id="" class="form-control" placeholder="Enter Marks" id="">
+            <input type="text" name="" id="sub1" class="form-control" placeholder="Enter Marks" id="">
         </div><br>
         <div class="form-group">
             <label>Subject 2</label>
-            <input type="text" name="" id="" class="form-control" placeholder="Enter Marks">
+            <input type="text" name="" id="sub2" class="form-control" placeholder="Enter Marks">
         </div><br>
         <div class="form-group">
             <label>Subject 3</label>
-            <input type="text" name="" id="" class="form-control" placeholder="Enter Marks">
+            <input type="text" name="" id="sub3" class="form-control" placeholder="Enter Marks">
         </div>
         <br>
         <button type="submit" class="btn btn-primary" style="margin-left: 660px; margin-top: 5px;">Submit</button>
       </form>
     </div>
-<!-- </div> -->
-<table class="table">
-    <thead>
+
+
+<table class="table" id="details">
+ 
       <tr>
-        <th scope="col">Serial No</th>
-        <th scope="col">Name</th>
-        <th scope="col">Roll No</th>
-        <th scope="col">Total Marks</th>
+        <th>Serial No</th>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Total Marks</th>
       </tr>
-    </thead>
-    <tbody>
-      <!-- <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Larry</td>
-        <td>the Bird</td>
-        <td>@twitter</td>
-      </tr> -->
-    </tbody>
+  
   </table>
 </body>
 <script src="index.js"></script>
